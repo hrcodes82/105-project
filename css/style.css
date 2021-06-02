@@ -1,7 +1,18 @@
 section {
 	width: 800px;
 	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+section img {
+	width: 325px;
+	height: 250px;
+
+}
+
 section h1,
 section p {
 	text-align: center;
